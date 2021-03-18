@@ -1,6 +1,27 @@
 # **NoServConnectFramework**
 ## Setup
 ---
+#### SwiftNIO Package
+Import SwiftNIO package.
+```
+  URL: https://github.com/apple/swift-nio.git
+```
+
+Select:
+
+  - NIO
+  - NIOConcurrencyHelpers
+  - NIOFoundationCompat
+
+#### Import OSX:
+```
+  import NOServConnectFramework
+```
+
+#### Import iOs:
+```
+  import NOServConnectFrameworkIOS
+```
 
 #### Connector
 ```
