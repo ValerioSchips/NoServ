@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="style0.css">
+  <script src="script.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2/webcomponents-loader.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2/webcomponents-loader.min.js"></script>
   <script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@1/src/zero-md.min.js"></script>
@@ -35,10 +36,15 @@
       <a href="readme.html" class="w3-bar-item w3-button">Framework</a>
       <a href="reference.html" class="w3-bar-item w3-button">Reference</a>
     </div>
+    <div class="w3-padding-32">
+      <div class="w3-bar w3-border">
+        <a id="swift-b" onclick="swiftClick()" class="w3-bar-item w3-button">Swift</a>
+        <a id="java-b" onclick="javaClick()" class="w3-bar-item w3-button">Java</a>
+      </div>
   </div>
 </header>
-<div class="md-container">
-  <zero-md src="Framework/readme.md"></zero-md>
+<div id="md-container" class="md-container">
+  <zero-md src="Framework/readme_swift.md"></zero-md>
 </div>
 </body>
 </html>
