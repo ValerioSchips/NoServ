@@ -42,6 +42,8 @@ Select:
 ```
   dbClientConnector.user.addUser(email: String, password: String, name: String?, surname: String?, callback: (_ response: Response)->Void)->String
 
+  dbClientConnector.user.confirmUser(code: String, callback: (_ response: Response)->Void)->String
+
   dbClientConnector.user.logIn(email: String, password: String, callback: (_ response: Response)->Void)->String
 
   dbClientConnector.user.rmUser(email: String, password: String, callback: (_ response: Response)->Void)->String

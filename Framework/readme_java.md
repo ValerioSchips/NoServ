@@ -25,6 +25,8 @@ Create a Connector which will let you to communicate with the Server.
 ```
   connector.user.addUser(String email, String password, String name, String surname, RequestCallback callback);
 
+  connector.user.confirmUser(String code, RequestCallback callback);
+
   connector.user.logIn(String email, String password, RequestCallback callback);
 
   connector.user.rmUser(String email, String password, RequestCallback callback);
