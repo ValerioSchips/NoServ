@@ -52,12 +52,13 @@ Select:
 ```
 
 #### Data
+1st element of "childs" parameter refers to memory block you want use. If "childs" parameter is omitted the selected operation will be executed on "Default" memory.
 ```
   dbClientConnector.dataU.addNode(childs: [String], data: [String: AnyObject], callback: (_ response: Response)->Void)->String
 
   dbClientConnector.dataU.delNode(childs: [String], callback: (_ response: Response)->Void)->String
 
-  dbClientConnector.dataU.delRoot(callback: (_ response: Response)->Void)->String
+  dbClientConnector.dataU.delRoot(rootName: [String], callback: (_ response: Response)->Void)->String
 
   dbClientConnector.dataU.getNode(childs: [String], callback: (_ response: Response)->Void)->String
 ```

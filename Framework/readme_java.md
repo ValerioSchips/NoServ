@@ -35,12 +35,13 @@ Create a Connector which will let you to communicate with the Server.
 ```
 
 #### Data
+1st element of "childs" parameter refers to memory block you want use. If "childs" parameter is omitted the selected operation will be executed on "Default" memory.
 ```
   connector.dataU.addNode(String[] childs, Map<String, Object> data, RequestCallback callback);
 
   connector.dataU.delNode(List<String> childs, RequestCallback callback);
 
-  connector.dataU.delRoot(RequestCallback callback);
+  connector.dataU.delRoot(String memRoot, RequestCallback callback);
 
   connector.dataU.getNode(String[] childs, RequestCallback callback);
 ```
