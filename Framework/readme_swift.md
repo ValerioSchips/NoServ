@@ -52,7 +52,7 @@ Select:
 ```
 
 #### Data
-1st element of "childs" parameter refers to memory block you want use. If "childs" parameter is omitted the selected operation will be executed on "Default" memory.
+
 ```
   dbClientConnector.dataU.addNode(childs: [String], data: [String: AnyObject], callback: (_ response: Response)->Void)->String
 
