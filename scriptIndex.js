@@ -1,6 +1,6 @@
 var closeCookieBanner;
 var cookieBanner;
-var storage = window.sessionStorage;
+var storage = window.localStorage;
 window.onload = (event) => {
   closeCookieBanner = document.getElementById("AcceptBanner");
   cookieBanner = document.getElementById("banner");
