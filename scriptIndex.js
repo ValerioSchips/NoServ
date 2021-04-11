@@ -5,7 +5,7 @@ window.onload = (event) => {
   closeCookieBanner = document.getElementById("AcceptBanner");
   cookieBanner = document.getElementById("banner");
 
-  if (storage.getItem("cookie") != "sown") {
+  if (storage.getItem("cookie") != "shown") {
     cookieBanner.style.display = "block";
     //cookieBanner.innerHTML = '<div id="banner" style="display: none"> <p> This sites uses Google Analytics to collect cookies. <br> Collected data will be used to analyse users action on the sites. <br> Collected data are IP, <a href=’insert-link’>cookie policy</a> </p> <button id="AcceptBanner" onclick="closeBanner()">Accept</button>';
   }else {
