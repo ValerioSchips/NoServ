@@ -8,7 +8,7 @@ window.onload = (event) => {
 $(document).ready(function() {
   cookieBanner = document.getElementById("banner");
 
-  if (storage.getItem("cookie") != "shjown") {
+  if (storage.getItem("cookie") != "sown") {
     cookieBanner.style.display="block";
   }else {
     cookiesAccepted();
